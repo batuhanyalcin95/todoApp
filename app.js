@@ -11,10 +11,6 @@ todoList.addEventListener('click', deleteCheck);
 filterOption.addEventListener('change', filterTodo);
 
 //Functions
-if (todoList.value === '') {
-  todoList.style.display = 'none';
-  console.log('hello');
-}
 function addTodo(e) {
   // prevent refreshing website because of submit form
   e.preventDefault();
